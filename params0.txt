@@ -1,0 +1,15 @@
+<bound method Module.parameters of Net(
+  (conv1): Conv2d(1, 512, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(512, 512, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (fc1): Linear(in_features=25088, out_features=512, bias=True)
+  (fc2): Linear(in_features=512, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+  (dropout): Dropout(p=0.41858963914688097, inplace=False)
+  (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+)>
+ opt: adam
+ lr: 0.00010000000000000002
+ mom: 0.8146276957891252
+ drop: 0.41858963914688097
+ batch: 64
